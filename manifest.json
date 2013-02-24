@@ -1,0 +1,12 @@
+{
+	"background": {
+				"page": "background.html",
+				"persistent": false
+			},
+	"description": "This extension creates a context-menu entry that copies selected text and formats it per Octopress's blockquote syntax.",
+	"manifest_version": 2,
+	"minimum_chrome_version": "22",
+	"name": "Bloctoquote",
+	"permissions": ["tabs", "contextMenus", "clipboardWrite"],
+	"version": "1.0"
+}
