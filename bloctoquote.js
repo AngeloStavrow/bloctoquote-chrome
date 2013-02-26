@@ -3,7 +3,7 @@
 // Set up the context menu item upon installation.
 chrome.contextMenus.create({
 	"id": "bq",
-	"title": "Bloctoquote",
+	"title": "Create Blockquote",
 	"contexts": ["page", "selection"]
 });
 
@@ -22,5 +22,4 @@ function clickHandler(info, tab)  {
 	clipboardholder.select();
 	bg.document.execCommand("Copy");
 	clipboardholder.style.display = "none";
-	alert("Blockquote created and copied to clipboard.");
 }
