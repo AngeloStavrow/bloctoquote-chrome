@@ -13,7 +13,6 @@ function clickHandler(info, tab)  {
 	var pageLink = info.pageUrl;
 	var pageTitle = tab.title;
 	var outputText = unescape('{% blockquote Source ' + pageLink + ' ' + pageTitle + ' %}\r\n' + escape(info.selectionText) + '\r\n' + '{% endblockquote %}');
-	console.log(outputText);
 	
 	bg = chrome.extension.getBackgroundPage();
 	clipboardholder= bg.document.getElementById("clipboardholder");

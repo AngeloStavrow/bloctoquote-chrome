@@ -5,8 +5,8 @@
 Author: Angelo Stavrow<br>
 E-mail: contact@angelostavrow.com<br>
 Creation Date: 24 February, 2013<br>
-Last Modified: 24 February, 2013<br>
-Version: 1.0<br>
+Last Modified: 20 October, 2013<br>
+Version: 1.1<br>
 Licence: MIT/X11 ([Link](http://www.opensource.org/licenses/mit-license.php "OSI: The MIT License"))
 
 
@@ -35,6 +35,10 @@ Please note that this add-on is third-party software and is not supported by, af
 
 
 ## Changelog
+
+### 1.1 (2013-10-20)
+
+Cleaned up some development code.
 
 ### 1.0 (2013-02-24)
 
